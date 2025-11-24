@@ -29,7 +29,7 @@ st.markdown(
 with st.container():
     st.markdown('<div class="app-card">', unsafe_allow_html=True)
 
-    st.title("サンプルアプリ②：文字数カウント & BMIチェック")
+    st.title("HAJIMEアプリ②：文字数カウント & BMIチェック")
 
     st.write("**動作モード1: 文字数カウント ✍️**")
     st.write("入力フォームにテキストを入力し、「実行」ボタンを押すことで文字数をカウントできます。")
@@ -79,4 +79,3 @@ with st.container():
                 st.error("身長と体重をどちらも入力してください。")
 
     st.markdown("</div>", unsafe_allow_html=True)
-    
